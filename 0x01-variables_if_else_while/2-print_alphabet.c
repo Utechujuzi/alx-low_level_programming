@@ -5,13 +5,15 @@
  * Return: Always 0 (success)
  */
 
-int main (void)	
+int main(void)	
 {
 	char c;
 	
 	c = 'a';
+
 	while
-		(c <= 'z') {
+		(c <= 'z') 
+		{
 			putchar(c);
 			c++;
 		}
